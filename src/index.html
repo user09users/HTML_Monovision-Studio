@@ -7,12 +7,12 @@
 	<meta name="description" content="Website for Monovision Studio" />
 	<meta name="author" content="Awesome student" />
 	<title>Monovision Studio</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/modern-normalize.min.css" />
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
 		rel="stylesheet" />
-	<!-- <link rel="stylesheet" href="css/fontello.css"> -->
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style.css?version=1.2" />
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 			<div class="container">
 				<h1 class="promo__title">Monovision Studio</h1>
 				<h2 class="promo__subtitle">Want some style on your photos?</h2>
-				<a href="#" class="btn">Portfolio</a>
+				<a href="#portfolio" class="btn">Portfolio</a>
 				<div class="promo__address">
 					Location:
 					<address>Everton Park, Block 2, Singapore 081002</address>
@@ -81,7 +81,7 @@
 		</section>
 		<section class="works">
 			<div class="container">
-				<h2 class="title"><span>Our works</span></h2>
+				<h2 id="portfolio" class="title"><span>Our works</span></h2>
 				<div class="works__grid">
 					<img src="img/works/bridge.jpg" alt="bridge" />
 					<img src="img/works/cat.jpg" alt="cat" />
@@ -118,24 +118,24 @@
 			<ul class="footer__social">
 				<li>
 					<a href="#" class="footer__link">
-						<img src="icons/facebook.svg" alt="facebook link">
+						<img src="icons/facebook.svg" alt="facebook link" />
 					</a>
 				</li>
 				<li>
 					<a href="#" class="footer__link">
-						<img src="icons/tg.svg" alt="tg link">
+						<img src="icons/tg.svg" alt="tg link" />
 					</a>
 				</li>
 				<li>
 					<a href="#" class="footer__link">
-						<img src="icons/whatsapp.svg" alt="whatsapp link">
-						<!-- <span class="icon-whatsapp"></span> -->
+						<img src="icons/whatsapp.svg" alt="whatsapp link" />
 					</a>
 				</li>
 			</ul>
-			<address class="footer__addr">Everton Park, Block 2, Singapore 081002</address>
-			<a class="footer__tel" ref="tel:+6569964725">+6569964725</a>
-
+			<address class="footer__addr">
+				Everton Park, Block 2, Singapore 081002
+			</address>
+			<a class="footer__tel" href="tel:+6569964725">+6569964725</a>
 		</footer>
 	</main>
 </body>
